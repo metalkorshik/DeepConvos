@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2426px" height="794px" viewBox="0 0 2426 794" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <linearGradient x1="23.5203286%" y1="7.84034424%" x2="82.5451874%" y2="49.3619851%" id="linearGradient-1">
+            <stop stop-color="#F1AD4F" offset="0%"></stop>
+            <stop stop-color="#EE8139" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slider_New_Collection" transform="translate(-79.000000, -286.000000)" fill="url(#linearGradient-1)">
+            <circle id="Oval" cx="1292" cy="1608" r="1322"></circle>
+        </g>
+    </g>
+</svg>

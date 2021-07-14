@@ -1,0 +1,417 @@
+.template-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 269px;
+  height: 100%;
+  box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+  background-color: #ffffff;
+}
+.template-navigation__inner {
+  position: relative;
+  height: 100%;
+}
+.template-navigation__inner .template-navigation__logo {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 129px;
+}
+.template-navigation__inner .template-navigation__menu {
+  margin: 0;
+  padding: 0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  grid-gap: 8px;
+  align-items: center;
+  margin-bottom: 27.5px;
+}
+.template-navigation__inner .template-navigation__menu .menu__item a {
+  font-family: Muller, serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #2d2b31;
+  position: relative;
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+}
+.template-navigation__inner .template-navigation__menu .menu__item a .circle {
+  position: absolute;
+  right: 20px;
+  top: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #98d53e;
+  display: grid;
+  place-items: center;
+}
+.template-navigation__inner .template-navigation__menu .menu__item a .circle i {
+  font-size: 10px;
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item .item__button {
+  width: 54px;
+  height: 48px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: grid;
+  place-items: center;
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+}
+.template-navigation__inner .template-navigation__menu .menu__item .item__button i {
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1) .item__button i {
+  color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2) .item__button i {
+  color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3) .item__button i {
+  color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4) .item__button i {
+  color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5) .item__button i {
+  color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] .item__button {
+  background-color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] a {
+  color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] .item__button {
+  background-color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] a {
+  color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] .item__button {
+  background-color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] a {
+  color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] .item__button {
+  background-color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] a {
+  color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] .item__button {
+  background-color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] a {
+  color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__text {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  justify-items: center;
+}
+.template-navigation__inner .template-navigation__text p {
+  margin: 14px;
+  padding-bottom: 28.5px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+}
+
+.main-area {
+  position: relative;
+  z-index: 3;
+  margin-left: 269px;
+  padding: 128px 24px 120px 24px;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #f4f3fa;
+}
+.main-area__inner {
+  min-height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+  background-color: #ffffff;
+  padding: 48px;
+}
+.main-area__inner .wish-list-painters .wish-list-painters__title {
+  font-family: JOURNALISM, serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.66px;
+  color: #2d2b31;
+  padding-bottom: 16px;
+}
+.main-area__inner .wish-list-painters .wish-list-painters__description {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.7);
+  padding-bottom: 16px;
+}
+.main-area__inner .wish-list-painters .painters-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+  grid-gap: 15px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body {
+  width: 248px;
+  padding: 8px 8px 20px 8px;
+  border-radius: 4px;
+  border: solid 1px #e2e6f4;
+  background-color: #ffffff;
+  transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+  cursor: pointer;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body:hover {
+  transition: all 0.35s cubic-bezier(0, 0, 0.58, 1);
+  transform: scale(1.05) translateY(20px);
+  box-shadow: 6px 1px 22px 0 #ebecf2;
+  border: none;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body:hover .btn--order {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body:hover .btn--order a {
+  transition: all 0.4s ease-in-out;
+  color: white;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__preview {
+  padding-bottom: 16px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__preview img {
+  width: 100%;
+  display: block;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__artist {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #2d2b31;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__artist .add-to-wish-list {
+  display: grid;
+  justify-self: end;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__date-registration {
+  font-family: Muller, serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.46;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.5);
+  padding-bottom: 16px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__rating, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__reviews, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__executor, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__deal {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  padding-bottom: 10px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__rating i, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style i, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__reviews i, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__executor i, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__deal i {
+  color: #c8cfee;
+  padding-right: 8px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__rating span, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style span, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__reviews span, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__executor span, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__deal span {
+  text-align: end;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style {
+  grid-template-columns: 2fr 3fr;
+  position: relative;
+  align-items: center;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .custom-select__arrow {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .custom-select__arrow img {
+  margin-right: 10px;
+  transition: all 0.2s ease-out;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .active-icon img {
+  transform: rotate(178deg);
+  transition: all 0.2s ease-out;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .custom-select {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f4f4fc;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .custom-select select {
+  display: none;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-selected {
+  border-radius: 12px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-items div, .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-selected {
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+  display: grid;
+  justify-items: start;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-items {
+  position: absolute;
+  width: 150px;
+  top: 36px;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 4px 1px 10px 0 #ebecf2;
+  background-color: #ffffff;
+  z-index: 3;
+  padding: 15px 16px;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-items div {
+  font-weight: 300;
+  line-height: 2.29;
+  display: grid;
+  justify-items: start;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__style .select-hide {
+  display: none;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .gallery-card__order {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .btn--order {
+  width: 184px;
+  height: 40px;
+  border-radius: 28px;
+  background-color: #f4f4fc;
+  transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .btn--order:hover {
+  transition: all 0.47s cubic-bezier(0, 0, 0.58, 1);
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .btn--order:hover a {
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+  color: white;
+}
+.main-area__inner .wish-list-painters .painters-gallery .gallery-card__body .btn--order a {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4c55ce;
+}
+
+@media only screen and (max-width: 650px) {
+  .main-area__inner .wish-list-painters .painters-gallery {
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .main-area__inner .wish-list-painters .wish-list-painters__title {
+    line-height: 1.45;
+  }
+
+  .main-area__inner {
+    padding: 16px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .main-area__inner .wish-list-painters .painters-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .main-area__inner .wish-list-painters .painters-gallery .gallery-card__body {
+    width: 248px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .template-navigation {
+    display: none;
+  }
+
+  .main-area {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-area {
+    height: auto;
+    padding: 128px 24px 40px 24px;
+  }
+}

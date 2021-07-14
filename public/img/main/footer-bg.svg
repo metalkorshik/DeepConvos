@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2564px" height="795px" viewBox="0 0 2564 795" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 51</title>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index_Customer" transform="translate(2.000000, -4711.000000)">
+            <g id="Group-51" transform="translate(-1.807922, 4711.986283)">
+                <path d="M2562.01059,213.71844 C2561.93865,209.449637 2561.53372,207.17893 2560.79579,206.90632 C2208.66569,76.8198228 1774.19083,0 1304.11083,0 C814.474007,0 363.466525,83.3446813 3.9076124,223.417244 C-0.275709856,225.046931 -1.10016806,228.498527 1.43423779,233.77203 L2.72873789,794 L2562.99094,791.276891 L2562.01059,213.71844 Z" id="Oval" fill="#F7F8FC"></path>
+                <ellipse id="Oval-Copy-81" fill="#F2F3F9" filter="url(#filter-1)" transform="translate(392.110827, 385.422412) rotate(-14.000000) translate(-392.110827, -385.422412) " cx="392.110827" cy="385.422412" rx="123" ry="54.5"></ellipse>
+                <ellipse id="Oval-Copy-93" fill="#EDF0FC" filter="url(#filter-2)" cx="1399.57459" cy="54.5137167" rx="136.233333" ry="33.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

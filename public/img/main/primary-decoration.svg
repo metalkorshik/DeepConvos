@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="759" viewBox="0 0 710 759">
+    <defs>
+        <filter id="xnkwz8ul1a" width="231.3%" height="265.4%" x="-65.6%" y="-82.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="xfnmtugabb" width="231.3%" height="265.4%" x="-65.6%" y="-82.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="gybet9qtec" width="231.3%" height="265.4%" x="-65.6%" y="-82.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="tghb6rzuld" width="210.2%" height="238.8%" x="-55.1%" y="-69.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-271 -973) translate(421 1123.163)">
+                <ellipse cx="114.247" cy="164.944" fill="#C8BFF5" filter="url(#xnkwz8ul1a)" rx="114.247" ry="90.683"/>
+                <ellipse cx="269.908" cy="90.683" fill="#DDEDF2" filter="url(#xfnmtugabb)" rx="114.247" ry="90.683"/>
+                <ellipse cx="295.614" cy="184.937" fill="#F8C9CC" filter="url(#gybet9qtec)" rx="114.247" ry="90.683"/>
+                <ellipse cx="193.747" cy="349.408" fill="#DAE3F8" filter="url(#tghb6rzuld)" opacity=".734" rx="136.141" ry="108.062"/>
+            </g>
+        </g>
+    </g>
+</svg>

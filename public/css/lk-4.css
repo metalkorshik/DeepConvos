@@ -1,0 +1,598 @@
+.template-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 269px;
+  height: 100%;
+  box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+  background-color: #ffffff;
+}
+.template-navigation__inner {
+  position: relative;
+  height: 100%;
+}
+.template-navigation__inner .template-navigation__logo {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 129px;
+}
+.template-navigation__inner .template-navigation__menu {
+  margin: 0;
+  padding: 0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  grid-gap: 8px;
+  align-items: center;
+  margin-bottom: 27.5px;
+}
+.template-navigation__inner .template-navigation__menu .menu__item a {
+  font-family: Muller, serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #2d2b31;
+  position: relative;
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+}
+.template-navigation__inner .template-navigation__menu .menu__item a .circle {
+  position: absolute;
+  right: 20px;
+  top: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #98d53e;
+  display: grid;
+  place-items: center;
+}
+.template-navigation__inner .template-navigation__menu .menu__item a .circle i {
+  font-size: 10px;
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item .item__button {
+  width: 54px;
+  height: 48px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: grid;
+  place-items: center;
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+}
+.template-navigation__inner .template-navigation__menu .menu__item .item__button i {
+  transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1) .item__button i {
+  color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2) .item__button i {
+  color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3) .item__button i {
+  color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4) .item__button i {
+  color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5) .item__button i {
+  color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] .item__button {
+  background-color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(1)[class~=active--item] a {
+  color: #b892d4;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] .item__button {
+  background-color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(2)[class~=active--item] a {
+  color: #f17d6f;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] .item__button {
+  background-color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(3)[class~=active--item] a {
+  color: #98d53e;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] .item__button {
+  background-color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(4)[class~=active--item] a {
+  color: #77b7f0;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] .item__button {
+  background-color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] .item__button i {
+  color: white;
+}
+.template-navigation__inner .template-navigation__menu .menu__item:nth-child(5)[class~=active--item] a {
+  color: #f3cf6b;
+}
+.template-navigation__inner .template-navigation__text {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  justify-items: center;
+}
+.template-navigation__inner .template-navigation__text p {
+  margin: 14px;
+  padding-bottom: 28.5px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+}
+
+.main-area {
+  position: relative;
+  z-index: 3;
+  margin-left: 269px;
+  padding: 128px 24px 120px 24px;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #f4f3fa;
+}
+.main-area__inner {
+  min-height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+  background-color: #ffffff;
+  padding: 48px;
+}
+.main-area__inner .link-back-to-order {
+  padding-bottom: 32px;
+}
+.main-area__inner .link-back-to-order a {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.71;
+  letter-spacing: normal;
+  color: #4c55ce;
+}
+.main-area__inner .link-back-to-order a i {
+  font-size: 12px;
+  color: #4c55ce;
+  padding-right: 7.2px;
+}
+.main-area__inner .customer-payment__description {
+  font-family: JOURNALISM, serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.66px;
+  color: #2d2b31;
+  padding-bottom: 42px;
+}
+.main-area__inner .customer-payment__price {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #2d2b31;
+  padding-bottom: 40px;
+}
+.main-area__inner .customer-payment__card-selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 32px;
+  padding-bottom: 32px;
+}
+.main-area__inner .customer-payment__card-selection .card-selection__item {
+  width: 200px;
+  height: 104px;
+  border-radius: 10px;
+  border: solid 1px #e2e6f4;
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+  cursor: pointer;
+}
+.main-area__inner .customer-payment__card-selection .card-selection__item:hover {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 6px 3px 16px 0 #dcdfe9;
+  background-color: #ffffff;
+  transition: all 0.4s cubic-bezier(0, 0, 0.58, 1);
+}
+.main-area__inner .customer-payment__card-selection .card-selection__item .item__name {
+  font-family: Muller, serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+}
+.main-area__inner .customer-payment__payment-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+  grid-gap: 40px;
+  padding-bottom: 56px;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front {
+  width: 368px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #eff0f6;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding: 0 24px 0 24px;
+  margin: 64px 0 32px 0;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner .number__description {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner input {
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner input[type=text] {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner input::placeholder {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 10px;
+  padding: 0 24px 0 24px;
+  height: 40px;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner .owner__description {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner input {
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner input[type=text] {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner input::placeholder {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+  text-transform: uppercase;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term input {
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term input[type=text] {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term input::placeholder {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+  text-transform: uppercase;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term .term__description {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back {
+  width: 368px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #eff0f6;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__line {
+  width: 100%;
+  height: 40px;
+  background-color: #e6e7ed;
+  margin-top: 32px;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv {
+  margin-top: 32px;
+  display: grid;
+  justify-items: end;
+  padding-right: 24px;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner {
+  position: relative;
+  width: 128px;
+  height: 40px;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner .inner__name {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner input {
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner input[type=text] {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner input::placeholder {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.main-area__inner .customer-payment--send {
+  width: 232px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+  outline: none;
+  border: none;
+}
+.main-area__inner .customer-payment--send a {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-area__inner .customer-payment__card-selection {
+    justify-items: center;
+  }
+
+  .main-area__inner .customer-payment__payment-card {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front {
+    width: 240px;
+    height: 150px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner input::placeholder {
+    font-size: 12px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner input[type=text] {
+    font-size: 12px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back {
+    width: 240px;
+    height: 150px;
+  }
+
+  .main-area__inner {
+    padding: 16px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-term .term__description {
+    font-size: 10px;
+    top: -21px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__bottom-line .front__card-owner .owner__description {
+    font-size: 10px;
+    top: -21px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner .inner__name {
+    font-size: 10px;
+    top: -21px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number .number__inner .number__description {
+    font-size: 10px;
+    top: -21px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv {
+    margin-top: 20px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__front .front__card-number {
+    margin: 25px 0 25px 0;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back .back__line {
+    margin-top: 20px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner input[type=text] {
+    font-size: 12px;
+  }
+
+  .main-area__inner .customer-payment__payment-card .payment-card__back .back__cvv .cvv__inner input::placeholder {
+    font-size: 12px;
+  }
+
+  .customer-payment {
+    display: grid;
+  }
+
+  .main-area__inner .customer-payment--send {
+    display: grid;
+    justify-self: center;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .template-navigation {
+    display: none;
+  }
+
+  .main-area {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-area {
+    height: auto;
+    padding: 128px 24px 40px 24px;
+  }
+}

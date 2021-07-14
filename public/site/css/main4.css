@@ -1,0 +1,386 @@
+.grid-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.artists-inner {
+  width: 100%;
+  position: relative;
+  height: 320px;
+  background-image: url(../img/artist-portfolio/portfolio-inside-bg.svg);
+  background-repeat: no-repeat;
+}
+.artists-inner .artists-inner__container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.artists-inner .artists-inner__container .artists-inner__content {
+  padding-top: 53px;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs {
+  margin: 0;
+  padding: 0;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs li {
+  display: inline-block;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs li::after {
+  content: "/";
+  display: inline-block;
+  font-size: 13px;
+  color: #c4c4c4;
+  margin: 0 16px;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs li a {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #4c55ce;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs li:nth-last-child(1) a {
+  color: #2d2b31;
+}
+.artists-inner .artists-inner__container .artists-inner__content .breadcrumbs li:nth-last-child(1)::after {
+  display: none;
+}
+
+.artists-primary {
+  width: 100%;
+  position: relative;
+  padding-bottom: 105px;
+}
+.artists-primary .artists-primary__container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.artists-primary .artists-primary__container .artists-primary__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 464px 1fr;
+  grid-gap: 54px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description {
+  width: 100%;
+  position: relative;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner {
+  position: absolute;
+  left: 0;
+  top: -200px;
+  width: 464px;
+  padding: 16px 15px 48px 16px;
+  border-radius: 4px;
+  box-shadow: 6px 1px 22px 0 #ebecf2;
+  border: solid 1px #e2e6f4;
+  background-color: #ffffff;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__to-wish-list {
+  display: grid;
+  justify-items: end;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__photo {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__photo .photo__item {
+  position: relative;
+  width: 210px;
+  height: 201px;
+  background-image: url(../img/artist-inner/image-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__name {
+  font-family: JOURNALISM, serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.99px;
+  text-align: center;
+  color: #2d2b31;
+  padding: 24px 0;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__date-registration, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__about, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__technique, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__style, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__contests, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__education-additionally, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__education, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__age {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #2d2b31;
+  padding-bottom: 16px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__date-registration span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__about span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__technique span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__style span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__contests span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__education-additionally span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__education span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__age span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__images {
+  padding-bottom: 16px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__style {
+  padding: 0;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__style-description {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #2d2b31;
+  padding-bottom: 16px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__rating, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__reviews, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__executor, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__deal {
+  width: 250px;
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  align-items: center;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__rating i, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__reviews i, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__executor i, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__deal i {
+  color: #c8cfee;
+  padding-right: 5px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__rating span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__reviews span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__executor span, .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__deal span {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2d2b31;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__order {
+  padding-top: 32px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__order .btn--order {
+  width: 304px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__order .btn--order a {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__title h2 {
+  font-family: JOURNALISM, serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.66px;
+  color: #2d2b31;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter {
+  padding-bottom: 16px;
+  position: relative;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .custom-select__arrow {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  right: 3px;
+  top: 12px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .custom-select__arrow img {
+  margin-right: 10px;
+  transition: all 0.2s ease-out;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .active-icon img {
+  transform: rotate(178deg);
+  transition: all 0.2s ease-out;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .filter__select-description {
+  top: 11px;
+  left: 20px;
+  position: absolute;
+  z-index: 3;
+  color: rgba(45, 43, 50, 0.6);
+  font-family: Muller, serif;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .custom-select {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f4f4fc;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+  padding: 10px 0;
+  width: 256px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .custom-select select {
+  display: none;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-selected {
+  border-radius: 12px;
+  padding-left: 16px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-items div, .artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-selected {
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+  display: grid;
+  justify-items: start;
+  border-radius: 12px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-items {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 4px 1px 10px 0 #ebecf2;
+  background-color: #ffffff;
+  z-index: 3;
+  padding: 15px 16px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-items div {
+  font-weight: 300;
+  line-height: 2.29;
+  display: grid;
+  justify-items: start;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .select-hide {
+  display: none;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-gap: 16px;
+  padding-bottom: 48px;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works img {
+  width: 100%;
+  display: block;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works .works__item {
+  position: relative;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works .works__item:hover .item__link {
+  transition: all 0.47s cubic-bezier(0, 0, 0.58, 1);
+  opacity: 1;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works .works__item .item__link {
+  transition: all 0.47s cubic-bezier(0, 0, 0.58, 1);
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 240px;
+  height: 48px;
+  border-radius: 24px;
+  border: solid 1px #ffffff;
+}
+.artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__works .works__item .item__link a {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1170px) {
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__reviews .reviews__description {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .artists-primary .artists-primary__container .artists-primary__content {
+    grid-template-columns: 1fr;
+  }
+
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner {
+    position: relative;
+    top: inherit;
+  }
+
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-description {
+    display: grid;
+    justify-items: center;
+  }
+
+  .artists-inner {
+    background-size: cover;
+    height: 110px;
+  }
+
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__title h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner {
+    width: 100%;
+  }
+
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-description .artist-description__inner .artist-description__order .btn--order {
+    width: 100%;
+  }
+
+  .artists-primary {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .artists-primary .artists-primary__container .artists-primary__content .content__artist-works .artist-works__filter .custom-select {
+    width: auto;
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="661" viewBox="0 0 744 661">
+    <defs>
+        <filter id="64sbpgjsna" width="219.4%" height="250.5%" x="-59.7%" y="-75.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="uobemu8hcb" width="261%" height="252.4%" x="-80.5%" y="-76.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="bgq40mo9oc" width="193.3%" height="213.5%" x="-46.7%" y="-56.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".783">
+        <g>
+            <g transform="translate(-18 -3637) translate(168 3787)">
+                <ellipse cx="317.724" cy="159.069" fill="#C8BFF5" filter="url(#64sbpgjsna)" rx="125.579" ry="99.678"/>
+                <ellipse cx="93.161" cy="98.402" fill="#F8C9CC" filter="url(#uobemu8hcb)" rx="93.161" ry="98.402"/>
+                <ellipse cx="203.79" cy="228.827" fill="#C2EDF9" filter="url(#bgq40mo9oc)" opacity=".734" rx="160.703" ry="132.173"/>
+            </g>
+        </g>
+    </g>
+</svg>

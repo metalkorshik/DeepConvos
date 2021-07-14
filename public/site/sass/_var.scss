@@ -1,0 +1,18 @@
+
+//:root {
+//  --main-color: #ff6f69;
+//}
+
+$maincolor:orange;
+$dark:#000;
+$light:#fff;
+$gutter:20px;
+
+@mixin headline-p {
+  font-size: 15px;
+  font-family: "Roboto", serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+}
+

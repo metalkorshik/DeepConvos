@@ -1,0 +1,543 @@
+@import "_var.scss";
+
+
+
+.template-navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 269px;
+	height: 100%;
+	box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+	background-color: #ffffff;
+	&__inner {
+		position: relative;
+		height: 100%;
+		& .template-navigation__logo {
+			text-align: center;
+			padding-top: 16px;
+			padding-bottom: 129px;
+		}
+		& .template-navigation__menu{
+			margin: 0;
+			padding: 0;
+			& .menu__item {
+				display: grid;
+				grid-template-columns: 54px 1fr;
+				grid-gap: 8px;
+				align-items: center;
+				margin-bottom: 27.5px;
+				& a {
+					font-family: Muller, serif;
+					font-size: 16px;
+					font-weight: normal;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: 2;
+					letter-spacing: normal;
+					color: #2d2b31;
+					position: relative;
+					transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+					& .circle {
+						position: absolute;
+						right:20px;
+						top: -6px;
+						width: 18px;
+						height: 18px;
+						border-radius: 50%;
+						background-color: #98d53e;
+						display: grid;
+						place-items: center;
+						& i {
+							font-size: 10px;
+							color: white;
+						}
+					}
+				}
+				& .item__button {
+					width: 54px;
+					height: 48px;
+					border-top-right-radius:12px;
+					border-bottom-right-radius:12px;
+					display: grid;
+					place-items: center;
+					transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+					& i {
+						transition: all 0.57s cubic-bezier(0, 0, 0.58, 1);
+						font-size: 25px;
+						padding-bottom: 3px;
+					}
+				}
+
+			}
+			& .menu__item:nth-child(1){
+				& .item__button{
+					& i {
+						color: #b892d4;
+					}
+				}
+			}
+			& .menu__item:nth-child(2){
+				& .item__button{
+					& i {
+						color: #f17d6f;
+					}
+				}
+			}
+			& .menu__item:nth-child(3){
+				& .item__button{
+					& i {
+						color: #98d53e;
+					}
+				}
+			}
+			& .menu__item:nth-child(4){
+				& .item__button{
+					& i {
+						color: #77b7f0;
+					}
+				}
+			}
+			& .menu__item:nth-child(5){
+				& .item__button{
+					& i {
+						color: #f3cf6b;
+					}
+				}
+			}
+			& .menu__item:nth-child(1)[class~="active--item"] {
+				& .item__button {
+					background-color:#b892d4;
+					& i {
+						color: white;
+					}
+				}
+				& a {
+					color: #b892d4;
+				}
+			}
+			& .menu__item:nth-child(2)[class~="active--item"] {
+				& .item__button {
+					background-color:#f17d6f;
+					& i {
+						color: white;
+					}
+				}
+				& a {
+					color: #f17d6f;
+				}
+			}
+			& .menu__item:nth-child(3)[class~="active--item"] {
+				& .item__button {
+					background-color:#98d53e;
+					& i {
+						color: white;
+					}
+				}
+				& a {
+					color: #98d53e;
+				}
+			}
+			& .menu__item:nth-child(4)[class~="active--item"] {
+				& .item__button {
+					background-color:#77b7f0;
+					& i {
+						color: white;
+					}
+				}
+				& a {
+					color: #77b7f0;
+				}
+			}
+			& .menu__item:nth-child(5)[class~="active--item"] {
+				& .item__button {
+					background-color:#f3cf6b;
+					& i {
+						color: white;
+					}
+				}
+				& a {
+					color: #f3cf6b;
+				}
+			}
+		}
+		& .template-navigation__text {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			display: grid;
+			justify-items: center;
+			& p {
+				margin: 14px;
+				padding-bottom: 28.5px;
+				font-family: Muller, serif;
+				font-size: 14px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.15;
+				letter-spacing: normal;
+				text-align: center;
+				color: #2d2b31;
+			}
+		}
+
+	}
+}
+
+
+
+
+ .main-area{
+	position: relative;
+	z-index: 3;
+	margin-left: 269px;
+	padding: 128px 24px 120px 24px;
+	 min-height: 100vh;
+	 height: 100%;
+	 background-color: #f4f3fa;
+	 &__inner {
+		 min-height: 100%;
+		 border-radius: 10px;
+		 box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+		 background-color: #ffffff;
+		 padding: 48px;
+		// write new section here
+		 & .selected-works {
+			 & .selected-works__wish-list-title{
+				 font-family: JOURNALISM, serif;
+				 font-size: 32px;
+				 font-weight: normal;
+				 font-stretch: normal;
+				 font-style: normal;
+				 line-height: 2.44;
+				 letter-spacing: 0.66px;
+				 color: #2d2b31;
+			 }
+			 & .selected-works__wish-list-description{
+				 font-family: Muller, serif;
+				 font-size: 14px;
+				 font-weight: normal;
+				 font-stretch: normal;
+				 font-style: normal;
+				 line-height: 2.29;
+				 letter-spacing: normal;
+				 color: rgba(45, 43, 49, 0.7);
+				 padding-bottom: 40px;
+			 }
+			 & .artist-works__gallery {
+				 display: grid;
+				 grid-template-columns: repeat(auto-fill, minmax( 340px, 1fr));
+				 grid-gap: 15px;
+				 justify-items: center;
+				 & .gallery-card__body {
+					 width: 340px;
+					 height: 500px;
+					 background-color: white;
+					 border-radius: 4px;
+					 border: solid 1px #e2e6f4;
+					 padding: 8px;
+					 transition: all 0.60s cubic-bezier(0, 0, 0.58, 1);
+					 cursor: pointer;
+					 &:hover {
+						 transition: all 0.35s cubic-bezier(0, 0, 0.58, 1);
+						 transform: scale(1.05) translateY(20px);
+						 box-shadow: 6px 1px 22px 0 #ebecf2;
+						 border: none;
+
+						 & .gallery-card__inner{
+							 & .gallery-card__contact{
+								& a {
+									 transition: all 0.3s ease-in-out;
+									 background-color: #4c55ce;
+								}
+								  & p {
+								 	 transition: all 0.4s ease-in-out;
+								 	 color: white;
+								  }
+							 }
+						 }
+					 }
+					 & .gallery-card__inner{
+						 & .gallery-card__preview{
+							 cursor: pointer;
+							 & img {
+								 width: 100%;
+								 display: block;
+							 }
+							 & .swiper-button-next , .swiper-button-prev{
+								 display: grid;
+								 place-items: center;
+								 width: 40px;
+								 height: 40px;
+								 border-radius: 50%;
+								 background-color: white;
+								 outline: none;
+								 pointer-events: none;
+								 opacity: 0;
+								 & i {
+									 color: #4c55ce;
+									 font-size: 20px;
+								 }
+							 }
+							 & .swiper-button-next::after, .swiper-button-prev::after {
+								 display: none;
+							 }
+							 &:hover {
+								 & .swiper-button-next , .swiper-button-prev{
+									 opacity: 1;
+									 pointer-events: auto;
+								 }
+							 }
+						 }
+						 & .gallery-card__preview-container{
+							 display: grid;
+							 grid-template-columns: 1fr 30px;
+							 padding: 16px 0;
+							 & a {
+								 font-family: Muller, serif;
+								 font-size: 14px;
+								 font-weight: 500;
+								 font-stretch: normal;
+								 font-style: normal;
+								 line-height: 1.71;
+								 letter-spacing: normal;
+								 color: #4c55ce;
+							 }
+							 & .gallery-card__wishlist{
+								 display: grid;
+								 justify-items: end;
+							 }
+						 }
+						 & .gallery-card__artist{
+							 display: grid;
+							 grid-template-columns: 140px 1fr;
+							 align-items: center;
+							 & .gallery-card__artist-name{
+								 display: grid;
+								 grid-template-columns: 30px 1fr;
+								 grid-gap: 10px;
+								 align-items: center;
+								 font-family: Muller, serif;
+								 font-size: 14px;
+								 font-weight: normal;
+								 font-stretch: normal;
+								 font-style: normal;
+								 line-height: 2.29;
+								 letter-spacing: normal;
+								 color: #2d2b31;
+								 & img {
+									 display: block;
+								 }
+							 }
+							 & .gallery-card__residence-time{
+								 display: grid;
+								 justify-items: end;
+								 font-family: Muller, serif;
+								 font-size: 14px;
+								 font-weight: normal;
+								 font-stretch: normal;
+								 font-style: normal;
+								 line-height: 1.71;
+								 letter-spacing: normal;
+								 text-align: right;
+								 color: rgba(45, 43, 49, 0.5);
+							 }
+						 }
+						 & .gallery-card__artist-description{
+							 padding: 12px 0;
+							 font-family: Muller, serif;
+							 font-size: 14px;
+							 font-weight: normal;
+							 font-stretch: normal;
+							 font-style: normal;
+							 line-height: 1.71;
+							 letter-spacing: normal;
+							 color: #2d2b31;
+						 }
+						 & .gallery-card__rating-panel{
+							 display: grid;
+							 grid-template-columns: max-content 1fr 1fr;
+							 grid-gap: 10px;
+							 padding-bottom: 24px;
+							 font-family: Muller, serif;
+							 font-size: 14px;
+							 font-weight: 500;
+							 font-stretch: normal;
+							 font-style: normal;
+							 line-height: 1.65;
+							 letter-spacing: normal;
+							 color: #2d2b31;
+							 & i {
+								 color: #c8cfee;
+								 padding-right: 8px;
+							 }
+							 & .gallery-card__review{
+								 display: grid;
+								 justify-items: center;
+
+							 }
+							 & .gallery-card__style {
+								 position: relative;
+								 & .custom-select__arrow {
+
+									 pointer-events: none;
+									 position: absolute;
+									 z-index: 2;
+									 right: 0;
+									 & img {
+										 margin-right: 10px;
+										 transition: all 0.2s ease-out;
+									 }
+								 }
+								 & .active-icon{
+									 & img {
+										 transform: rotate(178deg);
+										 transition: all 0.2s ease-out;
+									 }
+								 }
+								 .custom-select {
+									 position: relative;
+									 border-radius: 12px;
+									 background-color: #f1f3fc;
+								 }
+
+								 .custom-select select {
+									 display: none;
+								 }
+
+								 .select-selected {
+									 border-radius: 12px;
+									 background-color: #f1f3fc;
+								 }
+
+								 .select-items div,.select-selected {
+									 border: 1px solid transparent;
+									 cursor: pointer;
+									 user-select: none;
+									 width: 100%;
+									 display: grid;
+									 justify-items: end;
+									 padding-right: 32px;
+									 border-radius: 12px;
+								 }
+
+
+								 .select-items {
+									 position: absolute;
+									 width: 150px;
+									 top: 36px;
+									 right: 0;
+									 border-radius: 8px;
+									 box-shadow: 4px 1px 10px 0 #ebecf2;
+									 background-color: #ffffff;
+									 z-index: 7;
+
+								 }
+								 .select-items div{
+									 padding-right: 10px;
+									 font-weight: 300;
+									 line-height: 2.29;
+								 }
+
+								 .select-hide {
+									 display: none;
+								 }
+
+								 .select-items div:hover, .same-as-selected {
+									 //background-color: rgba(0, 0, 0, 0.03);
+								 }
+							 }
+						 }
+						 & .gallery-card__contact {
+							 width: 100%;
+							 display: grid;
+							 justify-items: center;
+							 padding-top: 12px;
+							 & a {
+								 width: 272px;
+								 height: auto;
+								 display: grid;
+								 justify-items: center;
+								 padding: 10px 15px;
+								 border-radius: 24px;
+								 background-color: #f4f4fc;
+								 transition: all 0.5s ease-in-out;
+								 //&:hover {
+									// transition: all 0.3s ease-in-out;
+									// background-color: #4c55ce;
+									// & p {
+									//	 transition: all 0.4s ease-in-out;
+									//	 color: white;
+									// }
+								 //}
+								 & p {
+									 margin: 0;
+									 padding: 0;
+									 font-family: Muller, serif;
+									 font-size: 14px;
+									 font-weight: 500;
+									 font-stretch: normal;
+									 font-style: normal;
+									 line-height: 1.71;
+									 letter-spacing: normal;
+									 text-align: center;
+									 color: #4c55ce;
+									 transition: all 0.4s ease-in-out;
+								 }
+							 }
+
+						 }
+					 }
+				 }
+			 }
+		 }
+	 }
+}
+
+@media only screen and (max-width : 484px) {
+	.main-area__inner .selected-works .artist-works__gallery{
+		grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+		grid-gap: 50px;
+	}
+	.main-area__inner .selected-works .artist-works__gallery .gallery-card__body{
+		width: 240px;
+		height: auto;
+		&:hover {
+			transform: scale(1) translateY(0px);
+		}
+	}
+	.main-area__inner{
+		padding: 16px;
+	}
+	.main-area__inner .selected-works .artist-works__gallery .gallery-card__body .gallery-card__inner .gallery-card__contact a{
+		width: 100%;
+	}
+	.main-area__inner .selected-works .artist-works__gallery .gallery-card__body .gallery-card__inner .gallery-card__rating-panel .gallery-card__style .custom-select{
+		width: 110px !important;
+	}
+	.main-area__inner .selected-works .artist-works__gallery .gallery-card__body .gallery-card__inner .gallery-card__rating-panel{
+		font-size: 12px;
+		grid-template-columns: max-content max-content 1fr;
+	}
+	.main-area__inner .selected-works .artist-works__gallery .gallery-card__body .gallery-card__inner .gallery-card__rating-panel .gallery-card__style .select-items div, .main-area__inner .selected-works .artist-works__gallery .gallery-card__body .gallery-card__inner .gallery-card__rating-panel .gallery-card__style .select-selected{
+		padding-right: 28px;
+	}
+
+}
+
+@media only screen and (max-width : 920px) {
+	.template-navigation{
+		display: none;
+	}
+	.main-area{
+		margin: 0;
+	}
+}
+@media only screen and (max-width : 1024px) {
+	.main-area{
+		height: auto;
+		padding: 128px 24px 40px 24px;
+	}
+}

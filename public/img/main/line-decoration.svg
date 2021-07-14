@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="25.5px"
+	 viewBox="0 0 26 25.5" style="enable-background:new 0 0 26 25.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#pjwt877c0b_2_);}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="24" width="24" x="35.2" y="38"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<g transform="translate(-535 -1653)">
+		<g>
+			<circle id="pjwt877c0b" class="st0" cx="547.9" cy="1666" r="12"/>
+		</g>
+		<g>
+			
+				<radialGradient id="pjwt877c0b_2_" cx="-107.5091" cy="2038.6646" r="0.5658" gradientTransform="matrix(24 0 0 -24 3124.8567 50591.0039)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#5C68BD"/>
+				<stop  offset="1" style="stop-color:#3B29C4"/>
+			</radialGradient>
+			<circle id="pjwt877c0b_1_" class="st1" cx="547.9" cy="1666" r="12"/>
+		</g>
+	</g>
+</g>
+</svg>

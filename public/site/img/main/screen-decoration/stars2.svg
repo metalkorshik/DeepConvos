@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="956px" height="913px" viewBox="0 0 956 913" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>stars2</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="46.1433332%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-171.9%" y="-171.9%" width="443.8%" height="443.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-183.3%" y="-183.3%" width="466.7%" height="466.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="-1633.41886%" cy="213.164434%" fx="-1633.41886%" fy="213.164434%" r="46.1433332%" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-171.9%" y="-171.9%" width="443.8%" height="443.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-171.9%" y="-171.9%" width="443.8%" height="443.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-171.9%" y="-171.9%" width="443.8%" height="443.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index_Customer" transform="translate(-781.000000, -111.000000)">
+            <g id="stars2" transform="translate(814.000000, 144.500000)">
+                <g id="Group-42" transform="translate(818.900000, 0.000000)">
+                    <circle id="Oval-Copy-2" fill="url(#radialGradient-1)" filter="url(#filter-2)" cx="9.6" cy="9.6" r="9.6"></circle>
+                    <circle id="Oval" fill="#BACCFF" cx="9.6" cy="9.5" r="4"></circle>
+                </g>
+                <g id="Group-32" transform="translate(91.500000, 234.500000)">
+                    <circle id="Oval-Copy-53" fill="url(#radialGradient-1)" opacity="0.786574591" filter="url(#filter-3)" cx="9" cy="9" r="9"></circle>
+                    <circle id="Oval-Copy-54" fill="#C9BAFF" opacity="0.802432106" cx="8.75" cy="8.75" r="3.25"></circle>
+                </g>
+                <g id="Group-41" transform="translate(869.500000, 825.500000)" fill="url(#radialGradient-4)">
+                    <circle id="Oval-Copy-32" filter="url(#filter-5)" cx="9.6" cy="9.6" r="9.6"></circle>
+                    <circle id="Oval-Copy-33" cx="9.6" cy="9.5" r="4"></circle>
+                </g>
+                <g id="Group-40" transform="translate(556.000000, 634.500000)">
+                    <circle id="Oval-Copy-69" fill="url(#radialGradient-4)" filter="url(#filter-6)" cx="9.6" cy="9.6" r="9.6"></circle>
+                    <circle id="Oval-Copy-70" fill="#E7DEFB" cx="9.6" cy="9.5" r="4"></circle>
+                </g>
+                <g id="Group-8" transform="translate(0.000000, 707.500000)">
+                    <circle id="Oval-Copy-10" fill="url(#radialGradient-1)" filter="url(#filter-7)" cx="9.6" cy="9.6" r="9.6"></circle>
+                    <circle id="Oval-Copy-11" fill="#E6E4DE" cx="9.6" cy="9.5" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

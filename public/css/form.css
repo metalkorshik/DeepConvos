@@ -1,0 +1,125 @@
+.grid-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.form-section {
+  max-width: 850px;
+  margin: 0 auto;
+  display: grid; }
+  .form-section .form {
+    margin-top: 50px;
+    padding: 70px 202px 0 85px;
+    border-radius: 9px;
+    box-shadow: 0 0 30px -8px rgba(225, 76, 154, 0.46); }
+    .form-section .form label {
+      display: block;
+      padding-bottom: 40px;
+      font-family: 'PF-regular', serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.533333px;
+      color: #343434; }
+    .form-section .form .input__wrapper {
+      margin-bottom: 60px;
+      position: relative; }
+      .form-section .form .input__wrapper input {
+        width: 100%;
+        mix-blend-mode: normal;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid rgba(125, 125, 125, 0.5);
+        margin-bottom: 30px; }
+      .form-section .form .input__wrapper input[type="text"] {
+        outline: none;
+        font-family: 'PF-regular', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.3px;
+        color: #343434; }
+      .form-section .form .input__wrapper .validation--error {
+        position: absolute;
+        bottom: 0;
+        font-family: 'PF-regular', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.433333px;
+        color: #D10000; }
+        .form-section .form .input__wrapper .validation--error img {
+          vertical-align: text-bottom;
+          padding-right: 12px; }
+      .form-section .form .input__wrapper .validation--success {
+        position: absolute;
+        top: 0;
+        right: 0; }
+      .form-section .form .input__wrapper textarea {
+        resize: none;
+        width: 100%;
+        border: 1px solid rgba(125, 125, 125, 0.5);
+        border-radius: 7px;
+        outline: none;
+        font-family: 'PF-regular', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.2px;
+        color: #343434;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        overflow: auto; }
+      .form-section .form .input__wrapper .area--details {
+        position: absolute;
+        bottom: 0;
+        font-family: 'PF-regular', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.433333px;
+        color: #343434;
+        mix-blend-mode: normal;
+        opacity: 0.5; }
+    .form-section .form .custom__checkbox {
+      cursor: pointer;
+      width: 50px; }
+      .form-section .form .custom__checkbox label {
+        padding: 30px 0;
+        cursor: pointer; }
+      .form-section .form .custom__checkbox input {
+        width: 0; }
+      .form-section .form .custom__checkbox input:checked ~ span::before {
+        background-image: -webkit-linear-gradient(-126deg, #f28cb2 0%, #f172a0 47%, #f24a88 100%); }
+      .form-section .form .custom__checkbox span {
+        position: relative; }
+        .form-section .form .custom__checkbox span::after {
+          content: '';
+          width: 13px;
+          height: 9px;
+          position: absolute;
+          top: 4px;
+          left: 6px;
+          border: 3px solid #ffffff;
+          border-top: none;
+          border-right: none;
+          transform: rotate(-45deg); }
+        .form-section .form .custom__checkbox span::before {
+          content: "";
+          position: absolute;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: #cbccce; }
+    .form-section .form .pl-holder input::placeholder {
+      color: #ff6f69; }
+    .form-section .form .forText .validation-error-image {
+      position: absolute;
+      top: 10px;
+      right: 10px; }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2560px" height="1181px" viewBox="0 0 2560 1181" style="enable-background:new 0 0 2560 1181;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.8466;filter:url(#filter-2);enable-background:new    ;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{opacity:0.3305;filter:url(#filter-4);enable-background:new    ;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);}
+	.st4{opacity:0.599;filter:url(#filter-5);enable-background:new    ;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FBE6D9;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="239.6%" id="filter-5" width="445.5%" x="-172.7%" y="-69.8%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="19"></feGaussianBlur>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="145.0%" id="filter-4" width="151.3%" x="-25.6%" y="-22.5%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="131.8%" id="filter-2" width="135.7%" x="-17.9%" y="-15.9%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="14"></feGaussianBlur>
+</filter>
+<g id="Page-1">
+	<g id="Index_Artist" transform="translate(-308.000000, -421.000000)">
+		<g id="Group-39" transform="translate(385.191542, 451.000000)">
+			<g id="Path-2" class="st0">
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="59.2827" y1="1256.0436" x2="58.6894" y2="1255.3208" gradientTransform="matrix(235 0 0 -264 -13449.9912 332161)">
+					<stop  offset="0" style="stop-color:#CFD3FE;stop-opacity:0.3892"/>
+					<stop  offset="1" style="stop-color:#EA9C5B;stop-opacity:0.6733"/>
+				</linearGradient>
+				<polygon class="st1" points="309.1,760.4 544.1,520.6 329.8,784.6 				"/>
+			</g>
+			<g id="Path-2-Copy-3" class="st2">
+				
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60.0236" y1="1255.2714" x2="59.4476" y2="1254.5485" gradientTransform="matrix(117.0172 0 0 -133.4092 -6485.5845 167902.375)">
+					<stop  offset="0" style="stop-color:#CFD3FE;stop-opacity:0.3892"/>
+					<stop  offset="1" style="stop-color:#EA9C5B;stop-opacity:0.6733"/>
+				</linearGradient>
+				<polygon class="st3" points="453.1,536.6 570.2,414.6 462.4,548 				"/>
+			</g>
+			<g id="Oval-Copy-52" class="st4">
+				<path class="st5" d="M324.8,784.2c8,4.4,20.7-3.4,28.5-17.4c7.8-14,24.9-46.4,16.9-50.9c-8-4.4-38,20.8-45.8,34.9
+					C316.7,764.8,316.9,779.7,324.8,784.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

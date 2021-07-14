@@ -1,0 +1,67 @@
+.grid-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@media only screen and (max-width: 1000px) {
+  header .mobile-menu-inner .inner-top_line {
+    display: grid;
+    grid-template-columns: 72px 1fr 1fr;
+    position: relative;
+    border-bottom: 1px solid gray;
+    padding: 20px 20px 50px 20px; }
+  header .main-mobile-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    header .main-mobile-navigation ul li {
+      cursor: pointer;
+      font-family: 'PF-bold', serif;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.75px;
+      color: #7d7d7d; }
+      header .main-mobile-navigation ul li label {
+        padding: 20px 20px;
+        border-bottom: solid 1px #979797; }
+      header .main-mobile-navigation ul li span {
+        padding-left: 20px; }
+      header .main-mobile-navigation ul li .menu-icon {
+        margin-left: auto;
+        padding: 10px 10px 10px 10px;
+        transition: transform .3s; }
+        header .main-mobile-navigation ul li .menu-icon i {
+          color: #e14c9a;
+          font-size: 24px; }
+      header .main-mobile-navigation ul li ul li {
+        border-bottom: solid 1px #e5e6e9;
+        font-size: 17px; }
+        header .main-mobile-navigation ul li ul li label {
+          border-bottom: solid 1px #e5e6e9;
+          padding: 20px 20px; }
+        header .main-mobile-navigation ul li ul li ul li {
+          border-bottom: solid 1px #e5e6e9;
+          padding: 20px 20px; }
+          header .main-mobile-navigation ul li ul li ul li a {
+            color: #7d7d7d;
+            font-size: 17px; }
+  header .main-mobile-navigation .cd-accordion__input {
+    position: absolute;
+    opacity: 0; }
+  header .main-mobile-navigation .cd-accordion__label {
+    position: relative;
+    display: flex;
+    align-items: center; }
+  header .main-mobile-navigation .cd-accordion__sub {
+    display: none; }
+  header .main-mobile-navigation .cd-accordion__input:checked ~ .cd-accordion__sub {
+    display: block; }
+  header .main-mobile-navigation .cd-accordion__input:checked + .cd-accordion__label .menu-icon {
+    transform: rotate(90deg); }
+  header .main-mobile-navigation .cd-accordion__input:checked + .cd-accordion__label span {
+    color: #e14c9a; }
+  header .main-mobile-navigation .menu-icon img {
+    width: 30px; } }

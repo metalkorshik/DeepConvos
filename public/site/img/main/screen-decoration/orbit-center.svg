@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1357px" height="1256px" viewbox="0 0 1357 1256" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="50%" cy="50%" fx="50%" fy="50%" r="46.143333%" gradientTransform="translate(0.5,0.5),rotate(-90),scale(1,0),translate(-0.5,-0.5)" id="gradient_1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </radialGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="50%" cy="50%" fx="50%" fy="50%" r="46.14333%" gradientTransform="translate(0.5,0.5),rotate(-90),scale(1,0),translate(-0.5,-0.5)" id="gradient_2">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </radialGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="-1633.4188%" cy="213.16443%" fx="-1633.4188%" fy="213.16443%" r="46.143333%" gradientTransform="translate(-16.334188,2.1316442),rotate(-90),scale(1,0),translate(16.334188,-2.1316442)" id="gradient_3">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </radialGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="-1633.4188%" cy="213.16443%" fx="-1633.4188%" fy="213.16443%" r="46.14333%" gradientTransform="translate(-16.334188,2.1316442),rotate(-90),scale(1,0),translate(16.334188,-2.1316442)" id="gradient_4">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </radialGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="11" result="effect0_gaussianBlur" />
+    </filter>
+  </defs>
+  <g id="Group-52" transform="translate(0.5 -86)">
+    <g id="Orbit">
+      <path d="M35.1781 468.375C106.942 542.624 264.828 506.611 387.825 387.939C510.822 269.267 552.355 112.874 480.59 38.625C408.826 -35.6236 250.94 0.388845 127.943 119.061C4.94618 237.733 -36.5862 394.126 35.1781 468.375Z" transform="translate(319 284)" id="Oval" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-opacity="0.393778" stroke-width="1" />
+      <path d="M52.4485 699.329C159.445 810.189 394.843 756.419 578.225 579.23C761.606 402.041 823.529 168.531 716.532 57.6708C609.536 -53.1895 374.138 0.580584 190.756 177.77C7.37447 354.959 -54.548 588.469 52.4485 699.329Z" transform="translate(219.30695 193)" id="Oval-Copy-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-opacity="0.284659" stroke-width="1" />
+      <path d="M72.5867 968.16C220.666 1121.64 546.447 1047.2 800.24 801.893C1054.03 556.591 1139.73 233.317 991.653 79.8402C843.574 -73.6362 517.792 0.803767 263.999 246.106C10.206 491.409 -75.4922 814.683 72.5867 968.16Z" transform="translate(95.97104 99)" id="Oval-Copy-7" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-opacity="0.3014788" stroke-width="1" />
+      <path d="M92.4589 1238.84C281.078 1435.22 696.049 1339.97 1019.32 1026.09C1342.6 712.203 1451.76 298.547 1263.14 102.162C1074.52 -94.2234 659.549 1.02848 336.275 314.913C13.0001 628.797 -96.1599 1042.45 92.4589 1238.84Z" id="Oval-Copy-9" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-opacity="0.28552827" stroke-width="1" />
+    </g>
+    <g id="stars-orbit" transform="translate(96 230.5)">
+      <g id="Group-42" transform="translate(818.9 0)">
+        <path d="M9.6 19.2C14.9019 19.2 19.2 14.9019 19.2 9.6C19.2 4.29807 14.9019 0 9.6 0C4.29807 0 0 4.29807 0 9.6C0 14.9019 4.29807 19.2 9.6 19.2Z" transform="matrix(1 0 0 1 3.6415315E-13 -5.3290705E-15)" id="Oval-Copy-2" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+        <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(5.6 5.5)" id="Oval" fill="#BACCFF" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="Group-32" transform="translate(91.5 234.5)">
+        <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" id="Oval-Copy-53" fill="url(#gradient_2)" fill-opacity="0.7865746" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+        <path d="M3.25 6.5C5.04493 6.5 6.5 5.04493 6.5 3.25C6.5 1.45507 5.04493 0 3.25 0C1.45507 0 0 1.45507 0 3.25C0 5.04493 1.45507 6.5 3.25 6.5Z" transform="translate(5.5 5.5)" id="Oval-Copy-54" fill="#C9BAFF" fill-opacity="0.8024321" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="Group-41" transform="translate(869.5 825.5)">
+        <path d="M9.6 19.2C14.9019 19.2 19.2 14.9019 19.2 9.6C19.2 4.29807 14.9019 0 9.6 0C4.29807 0 0 4.29807 0 9.6C0 14.9019 4.29807 19.2 9.6 19.2Z" transform="matrix(1 0 0 1 3.6415315E-13 2.3092639E-14)" id="Oval-Copy-32" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+        <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(5.6 5.5)" id="Oval-Copy-33" fill="url(#gradient_4)" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="Group-40" transform="translate(556 634.5)">
+        <path d="M9.6 19.2C14.9019 19.2 19.2 14.9019 19.2 9.6C19.2 4.29807 14.9019 0 9.6 0C4.29807 0 0 4.29807 0 9.6C0 14.9019 4.29807 19.2 9.6 19.2Z" transform="matrix(1 0 0 1 -9.05942E-14 2.3092639E-14)" id="Oval-Copy-69" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+        <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(5.6 5.5)" id="Oval-Copy-70" fill="#E7DEFB" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="Group-8" transform="translate(0 707.5)">
+        <path d="M9.6 19.2C14.9019 19.2 19.2 14.9019 19.2 9.6C19.2 4.29807 14.9019 0 9.6 0C4.29807 0 0 4.29807 0 9.6C0 14.9019 4.29807 19.2 9.6 19.2Z" transform="matrix(1 0 0 1 -9.05942E-14 2.3092639E-14)" id="Oval-Copy-10" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+        <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(5.6 5.5)" id="Oval-Copy-11" fill="#E6E4DE" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

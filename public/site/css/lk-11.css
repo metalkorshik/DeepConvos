@@ -1,0 +1,734 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: #fff;
+  color: #4c55ce;
+}
+
+a, a:hover, a:focus, a:active {
+  outline: none !important;
+  text-decoration: none;
+  color: #000;
+}
+
+.user-registration {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  background-color: #f4f4fc;
+  background-image: url(../img/lk-images/registration-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: max-content 1fr;
+  grid-gap: 64px;
+  padding: 0 20px 20px 20px;
+}
+.user-registration .user-form {
+  width: 752px;
+  height: max-content;
+  border-radius: 10px;
+  box-shadow: 0 3px 42px 0 rgba(170, 177, 194, 0.25);
+  background-color: #ffffff;
+  position: relative;
+}
+.user-registration .user-form .user-form__link-back {
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+.user-registration .user-form .user-form__link-back a {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.71;
+  letter-spacing: normal;
+  color: #4c55ce;
+  padding: 12px 16px 12px 14px;
+  border-radius: 21px;
+  background-color: #ffffff;
+}
+.user-registration .user-form .user-form__link-back a i {
+  font-size: 12px;
+  color: #4c55ce;
+  padding-right: 7.2px;
+}
+.user-registration .user-form .user-form__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions {
+  padding: 56px 0 56px 0;
+  width: 368px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--enter {
+  position: relative;
+  width: max-content;
+  font-family: JOURNALISM, serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.66px;
+  text-align: center;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--enter img {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: -40px;
+  bottom: 10px;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--enter span {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--registration {
+  position: relative;
+  width: max-content;
+  font-family: JOURNALISM, serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.66px;
+  text-align: center;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--registration img {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: -40px;
+  bottom: 7px;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .tab--registration span {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .active-tab {
+  color: #4c55ce;
+}
+.user-registration .user-form .user-form__inner .form-top .top__actions .active-tab img {
+  display: block;
+}
+.user-registration .user-form .user-form__inner .form-enter {
+  width: 368px;
+  margin: auto;
+}
+.user-registration .user-form .user-form__inner .form-enter .form-enter__description {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper {
+  position: relative;
+  margin-bottom: 32px;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper .input-wrapper__description {
+  position: absolute;
+  left: 24px;
+  top: 3px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+  margin-top: 0;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper .input-wrapper__description span {
+  color: #ff6755;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #f4f4fc;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper input[type=text] {
+  padding: 25px 24px 0 24px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper input[type=password] {
+  padding: 25px 24px 0 24px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper .input-wrapper__vision {
+  position: absolute;
+  right: 25px;
+  top: 17px;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper .input-wrapper__vision .vision--vision {
+  display: block;
+}
+.user-registration .user-form .user-form__inner .form-enter .input-wrapper .input-wrapper__vision .vision--hide {
+  display: none;
+}
+.user-registration .user-form .user-form__inner .form-enter .button-wrapper {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 48px;
+}
+.user-registration .user-form .user-form__inner .form-enter .button-wrapper button {
+  width: 272px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+  outline: none;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-enter .lost-password {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7e8ccc;
+}
+.user-registration .user-form .user-form__inner .form-register .form-register__description {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+  margin-top: 0;
+}
+.user-registration .user-form .user-form__inner .form-register ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+}
+.user-registration .user-form .user-form__inner .form-register ul li {
+  padding-bottom: 32px;
+  list-style-type: none;
+  position: relative;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .container {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  width: 32px;
+  border: solid 1px #7e8ccc;
+  border-radius: 50%;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.user-registration .user-form .user-form__inner .form-register ul li .container .checkmark:after {
+  top: 7px;
+  left: 7px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4c55ce;
+}
+.user-registration .user-form .user-form__inner .form-register .button-wrapper {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 48px;
+}
+.user-registration .user-form .user-form__inner .form-register .button-wrapper button {
+  width: 272px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+  outline: none;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .tab-content {
+  display: none;
+}
+.user-registration .user-form .user-form__inner .active--block {
+  display: block;
+}
+.user-registration .user-form .user-form__inner .form-register-inner {
+  display: none;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__description {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+  padding-bottom: 24px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 32px;
+  padding: 0 40px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper {
+  position: relative;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .input-wrapper__description {
+  position: absolute;
+  left: 24px;
+  top: 8px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+  margin-top: 0;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .input-wrapper__description span {
+  color: #ff6755;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .top-s {
+  top: 16px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #f4f4fc;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper input[type=text] {
+  padding: 25px 24px 0 24px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper input[type=password] {
+  padding: 25px 24px 0 24px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .input-wrapper__vision {
+  position: absolute;
+  right: 25px;
+  top: 17px;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .input-wrapper__vision .vision--vision {
+  display: block;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .input-wrapper .input-wrapper__vision .vision--hide {
+  display: none;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .glc {
+  position: relative;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content .glc input[type=text] {
+  padding: 0 0 0 24px;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d2b31;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper {
+  padding-top: 44px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox__inner {
+  width: max-content;
+  margin: auto;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox {
+  padding-bottom: 32px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox input[type=checkbox] {
+  opacity: 0;
+  width: 0;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 44px;
+  line-height: 2.45;
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgba(45, 43, 49, 0.6);
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label a {
+  color: #4c55ce;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label::before,
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label::before {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  border: solid 1px #7e8ccc;
+  left: 0;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label::after {
+  height: 10px;
+  width: 14px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  transform: rotate(-45deg);
+  left: 9px;
+  top: 7px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox input[type=checkbox] + label::after {
+  content: none;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox input[type=checkbox]:checked + label::after {
+  content: "";
+  color: #FFFFFF;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox input[type=checkbox]:checked + label::before {
+  background-color: #4c55ce;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .button-wrapper {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 48px;
+}
+.user-registration .user-form .user-form__inner .form-register-inner .button-wrapper button {
+  width: 272px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 8px 6px 15px 0 #e1e3fb;
+  background-color: #4c55ce;
+  outline: none;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.user-registration .user-form .user-form__inner .register-complete {
+  display: none;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__title {
+  font-family: JOURNALISM, serif;
+  font-size: 52px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #2d2b31;
+  padding: 120px 0 50px 0;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__description {
+  font-family: Muller, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2b31;
+  padding-bottom: 51px;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__description span {
+  color: #4c55ce;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__timer {
+  font-family: Muller, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(45, 43, 49, 0.6);
+  padding-bottom: 64px;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__image {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.user-registration .user-form .user-form__inner .register-complete .register-complete__image img {
+  display: block;
+}
+
+@media only screen and (max-width: 820px) {
+  .user-registration .user-form {
+    width: 100%;
+  }
+
+  .user-registration {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content {
+    grid-template-columns: 1fr;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox__inner {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .user-registration .user-form .user-form__inner .form-enter {
+    width: 100%;
+  }
+
+  .user-registration .user-form .user-form__inner .form-top .top__actions {
+    width: 100%;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register-inner .form-register-inner__content {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .user-registration .user-form .user-form__inner .form-top .top__actions .tab--registration {
+    font-size: 25px;
+  }
+
+  .user-registration .user-form .user-form__inner .form-top .top__actions .tab--enter {
+    font-size: 25px;
+  }
+
+  .user-registration .user-form .user-form__inner .form-top .top__actions .tab--enter img {
+    left: -37px;
+    bottom: 10px;
+    width: 110px;
+  }
+
+  .user-registration .user-form .user-form__inner .form-top .top__actions .tab--registration img {
+    left: -40px;
+    bottom: 2px;
+    width: 170px;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register .button-wrapper button {
+    width: 100%;
+  }
+
+  .user-registration .user-form .user-form__inner .form-enter .button-wrapper button {
+    width: 100%;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register-inner .button-wrapper button {
+    width: 100%;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox label {
+    font-size: 12px;
+    line-height: 2.75;
+  }
+
+  .user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox:nth-child(2) label::before {
+    left: -4px;
+  }
+  .user-registration .user-form .user-form__inner .form-register-inner .checkbox-wrapper .checkbox:nth-child(2) label::after {
+    left: 5px;
+  }
+}

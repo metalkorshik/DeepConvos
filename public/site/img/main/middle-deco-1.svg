@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="851px" height="1471px" viewbox="0 0 851 1471" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Орбита" transform="translate(0.5 0.5)">
+    <path d="M895.354 0C895.354 0 -78.8284 413.662 6.94017 837.421C92.7087 1261.18 895.354 1469.12 895.354 1469.12" id="Path-33" fill="none" fill-rule="evenodd" stroke="#D6DAEC" stroke-width="1" />
+    <path d="M10.6491 0L14.4146 6.88541L21.2982 10.6491L14.4146 14.4146L10.6491 21.3L6.88361 14.4146L0 10.6491L6.88361 6.88541L10.6491 0Z" transform="matrix(0.9135454 -0.40673664 0.40673664 0.9135454 4.3258057 649.7862)" id="Fill-98-Copy-7" fill="#D6DAEC" fill-rule="evenodd" stroke="none" />
+    <path d="M23.998 0L32.4836 15.5164L47.9959 23.998L32.4836 32.4836L23.998 48L15.5124 32.4836L0 23.998L15.5124 15.5164L23.998 0Z" transform="matrix(0.99254614 0.12186935 -0.12186935 0.99254614 93.53931 1036.8347)" id="Fill-98-Copy-8" fill="#E6E9F8" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="162px" viewBox="0 0 139 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EA5F46F1-8FCB-4E18-9084-B7519BEB2C42</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="144" rx="8"></rect>
+        <filter x="-12.1%" y="-8.7%" width="124.2%" height="120.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.163377458   0 0 0 0 0.408188139   0 0 0 0 0.863536005  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="1.61000845%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D1DFFF" stop-opacity="0.736505682" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Сollection" transform="translate(-1005.000000, -505.000000)">
+            <g id="Group-24" transform="translate(1014.071429, 512.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M7.92857143,72 L111.928571,72 L111.928571,128 C111.928571,132.418278 108.346849,136 103.928571,136 L15.9285714,136 C11.5102934,136 7.92857143,132.418278 7.92857143,128 L7.92857143,72 L7.92857143,72 Z" id="Rectangle" fill="#F6F8FF"></path>
+                <path d="M7.92857143,8 L111.928571,8 L111.928571,64 C111.928571,68.418278 108.346849,72 103.928571,72 L15.9285714,72 C11.5102934,72 7.92857143,68.418278 7.92857143,64 L7.92857143,8 L7.92857143,8 Z" id="Rectangle-Copy-27" fill="#F0F3FB" opacity="0.673223586" transform="translate(59.928571, 40.000000) scale(1, -1) translate(-59.928571, -40.000000) "></path>
+                <rect id="Rectangle-Copy-78" fill="url(#linearGradient-3)" opacity="0.816220238" x="7.92857143" y="72" width="104" height="32"></rect>
+                <g id="Group-6-Copy-2" transform="translate(11.428571, 66.000000)" fill="#7E8CCC">
+                    <rect id="Rectangle-Copy-35" x="0" y="1.24696624" width="2.57142857" height="10.2857143" rx="1.28571429"></rect>
+                    <rect id="Rectangle-Copy-36" x="95.1" y="0.857142857" width="2.57142857" height="10.2857143" rx="1.28571429"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

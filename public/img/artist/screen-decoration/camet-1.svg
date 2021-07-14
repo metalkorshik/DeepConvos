@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2561.5px" height="1181px" viewBox="0 0 2561.5 1181" style="enable-background:new 0 0 2561.5 1181;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{filter:url(#filter_1);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{filter:url(#filter_2);}
+	.st3{opacity:0.599;fill-rule:evenodd;clip-rule:evenodd;fill:#54FF74;}
+</style>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" id="filter_2">
+	<feFlood  flood-opacity="0" result="BackgroundImageFix"></feFlood>
+	<feBlend  in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape"></feBlend>
+	<feGaussianBlur  result="effect0_gaussianBlur" stdDeviation="19"></feGaussianBlur>
+</filter>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" id="filter_1">
+	<feFlood  flood-opacity="0" result="BackgroundImageFix"></feFlood>
+	<feBlend  in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape"></feBlend>
+	<feGaussianBlur  result="effect0_gaussianBlur" stdDeviation="18"></feGaussianBlur>
+</filter>
+<g id="Group-44" transform="translate(0.5 -50)">
+	<g id="Group-43" transform="translate(0 231)">
+		<g id="Path-2-Copy" class="st0">
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1468.1313" y1="763.2691" x2="1467.3851" y2="762.5488" gradientTransform="matrix(232.301 0 0 -333.51 -338855.4688 254666.6406)">
+				<stop  offset="0" style="stop-color:#FEEECF;stop-opacity:0.2784"/>
+				<stop  offset="1" style="stop-color:#4598F2;stop-opacity:0.8471"/>
+			</linearGradient>
+			<polygon class="st1" points="2009,346.5 2237.4,52.7 2005.1,386.2 			"/>
+		</g>
+		<g id="Oval" class="st2">
+			<path class="st3" d="M2020.3,367c8,4.4,20.7-3.4,28.5-17.4c7.8-14,24.9-46.4,16.9-50.9c-8-4.4-38,20.8-45.8,34.9
+				C2012.2,347.7,2012.3,362.6,2020.3,367z"/>
+		</g>
+	</g>
+	<g id="Path-2-Copy-2" class="st2">
+		<polygon class="st3" points="2139.9,221.4 2276.9,52.7 2155.3,238.7 		"/>
+	</g>
+</g>
+</svg>

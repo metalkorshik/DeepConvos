@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2560px" height="1081px" viewBox="0 0 2560 1081" style="enable-background:new 0 0 2560 1081;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.8466;filter:url(#filter-2);enable-background:new    ;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{opacity:0.3313;filter:url(#filter-3);enable-background:new    ;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#7879BC;}
+	.st4{opacity:0.7866;filter:url(#filter-5);enable-background:new    ;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);}
+</style>
+<filter  filterUnits="objectBoundingBox" height="466.7%" id="filter-5" width="466.7%" x="-183.3%" y="-183.3%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="11"></feGaussianBlur>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="205.6%" id="filter-3" width="534.0%" x="-217.0%" y="-52.8%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="19"></feGaussianBlur>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="131.8%" id="filter-2" width="135.7%" x="-17.9%" y="-15.9%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="14"></feGaussianBlur>
+</filter>
+<g id="Page-1">
+	<g id="Index_Artist" transform="translate(-464.000000, 121.000000)">
+		<g id="Group-6" transform="translate(542.191542, -79.000000)">
+			<g id="Path-2-Copy-4" class="st0">
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1331.3937" y1="1035.045" x2="1331.0477" y2="1034.6237" gradientTransform="matrix(235 0 0 -264 -312247 273237)">
+					<stop  offset="0" style="stop-color:#3F479E;stop-opacity:0.3892"/>
+					<stop  offset="1" style="stop-color:#7E5BEA;stop-opacity:0.6733"/>
+				</linearGradient>
+				<polygon class="st1" points="530.1,98.7 667.1,-41.1 542.1,112.9 				"/>
+			</g>
+			<g id="Oval-Copy-61" class="st2">
+				<path class="st3" d="M525.3,133.6c3.7,2.1,11.6-5,17.5-15.8c6-10.8,19.4-35.7,15.7-37.7c-3.7-2.1-23.1,19.5-29.1,30.3
+					S521.6,131.5,525.3,133.6z"/>
+			</g>
+			<g id="Oval-Copy-66" class="st4">
+				
+					<radialGradient id="SVGID_2_" cx="1280.7207" cy="1040.506" r="0.2691" gradientTransform="matrix(18 0 0 -18 -22411.5527 18786)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+					<stop  offset="1" style="stop-color:#FFFFFF"/>
+				</radialGradient>
+				<circle class="st5" cx="641.4" cy="56.9" r="5.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

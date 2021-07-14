@@ -1,0 +1,19 @@
+.user-form__link-back a {
+    font-family: Muller, serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.71;
+    letter-spacing: normal;
+    color: #4c55ce;
+    padding: 12px 16px 12px 14px;
+    border-radius: 21px;
+    background-color: #ffffff;
+  }
+  
+  .user-form__link-back a i {
+    font-size: 12px;
+    color: #4c55ce;
+    padding-right: 7.2px;
+  }
